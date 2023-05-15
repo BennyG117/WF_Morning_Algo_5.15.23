@@ -1,11 +1,11 @@
-function d6() {
-    var roll = math.ceil(Math.random() * 6);
-    // your code here
-    return roll;
-}
+// function d6() {
+//     var roll = math.ceil(Math.random() * 6);
+//     // your code here
+//     return roll;
+// }
     
-var playerRoll = d6();
-console.log("The player rolled: " + playerRoll);
+// var playerRoll = d6();
+// console.log("The player rolled: " + playerRoll);
 
 
 
@@ -33,7 +33,7 @@ function getAnswer(lifesAnswers) {
         "Outlook not so good.",
         "Very doubtful."
     ];
-    //roll = generate randomized math.floor from 1-19
+    //roll = generate randomized math.floor from 1-20
     var roll = Math.floor(Math.random() * lifesAnswers.length);
         //take randomized index and define it by new name
         // var roll = (lifesAnswers[roll]);
